@@ -8,7 +8,7 @@
     <title>Shop Cupid</title>
 
     <!-- Fonts -->
-    <link rel="icon" href="http://localhost/SC5/resources/views/style/logo.png">
+    <link rel="icon" href="system/resources/views/style/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
 
@@ -20,8 +20,8 @@
   
 
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
-    <link rel="stylesheet" type="text/css" href="http://localhost/SC5/resources/views/style/style.css">
-    <!-- <link rel="stylesheet" type="text/css" href="http://localhost/SC5/resources/views/style/animate.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="system/resources/views/style/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="system/resources/views/style/animate.min.css"> -->
 
     <style>
         body {
@@ -42,7 +42,7 @@
 </head>
 <body onunload="unloadP('UniquePageNameHereScroll')" onload="loadP('UniquePageNameHereScroll')"> 
     <h1>
-        <img src="http://localhost/SC5/resources/views/style/logo.png" />
+        <img src="system/resources/views/style/logo.png" />
     
         <!-- Authentication Links -->
         @if (Auth::guest())
@@ -99,8 +99,8 @@
                     <tr>
                       <td width="150px" height="100" valign="top">                         
 
-                          <p><img src="http://localhost/SC5/public/uploads/logo/{{$deal->id}}.jpg" width="120" height="120" /></p>
-                          <p><a href="http://localhost/SC5/public/uploads/logo/{{$deal->id}}.jpg" target="_blank">View Full Size Image</a></p></td>
+                          <p><img src="system/public/uploads/logo/{{$deal->id}}.jpg" width="120" height="120" /></p>
+                          <p><a href="system/public/uploads/logo/{{$deal->id}}.jpg" target="_blank">View Full Size Image</a></p></td>
 
                       <td valign="top">
                           <form action="{{ url('deal_list/'.$deal->id) }}" method="POST">
@@ -174,7 +174,7 @@
       @else href="{{ url('/login')}}" @endif >
       <!-- href="(Auth::check())? {{ url('/login')}}:{{ url(Request::url()) }}"> -->
         <img style="position: fixed; bottom: 13px; right: 0px; z-index: 999;" 
-        src="http://localhost/SC5/resources/views/style/fav_cartoon.png" />
+        src="system/resources/views/style/fav_cartoon.png" />
         <span>&hearts;&nbsp;  My Favourite Deal &nbsp;&hearts;</span>
 
     </a>
@@ -187,8 +187,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="http://localhost/SC5/resources/views/scrollfix.js" type="text/javascript"></script>
-    <script type="text/javascript" src="http://localhost/SC5/resources/views/script.js"></script>       
+    <script src="system/resources/views/scrollfix.js" type="text/javascript"></script>
+    <script type="text/javascript" src="system/resources/views/script.js"></script>       
     
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
