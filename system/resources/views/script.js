@@ -10,7 +10,7 @@
 		//       $(".top").addClass("right");
 		// }
 
-		if ($('#fav_'+id).attr("src") == 'http://localhost/SC4/resources/views/style/fav_gray.png'){
+		if ($('#fav_'+id).attr("src") == 'system/resources/views/style/fav_gray.png'){
 
 			var bouncetime = 1000;
 		    var ballheight = 280;
@@ -39,10 +39,10 @@
 			// $('#fav_'+id).offset({ top: '42', left: '-38'});
 
 			// $('#fav_'+id).fadeTo(1000,0.30, function() {
-		 //      	$('#fav_'+id).attr("src",'http://localhost/SC4/resources/views/style/fav_red.png');
+		 //      	$('#fav_'+id).attr("src",'system/resources/views/style/fav_red.png');
 		 // 	}).fadeTo(500,1);
 
-		 } else if($('#fav_'+id).attr("src") == 'http://localhost/SC4/resources/views/style/fav_red.png'){
+		 } else if($('#fav_'+id).attr("src") == 'system/resources/views/style/fav_red.png'){
 
 		 // 	$('#fav_'+id).animate({
 			//     top: $(window).height() - fav.top - '50' + ($(window).scrollTop()),
@@ -56,7 +56,7 @@
 			// $('#fav_'+id).offset({ top: '42', left: '-38'});
 
 			// $('#fav_'+id).fadeTo(1000,0.10, function() {
-		 //      	$('#fav_'+id).attr("src",'http://localhost/SC4/resources/views/style/fav_gray.png');
+		 //      	$('#fav_'+id).attr("src",'system/resources/views/style/fav_gray.png');
 		 // 	}).fadeTo(500,1);
 
 		 }
@@ -79,7 +79,7 @@
 		// $('#fav_'+id).offset({ top: '42', left: '-38'});
 
 		$('#fav_'+id).fadeTo(1000,0.30, function() {
-	      	$('#fav_'+id).attr("src",'http://localhost/SC4/resources/views/style/fav_gray.png');
+	      	$('#fav_'+id).attr("src",'system/resources/views/style/fav_gray.png');
 	 	}).fadeTo(500,1);
 
     }
@@ -103,7 +103,7 @@
 			// $('#fav_'+id).offset({ top: '42', left: '-38'});
 
 			$('#fav_'+id).fadeTo(1000,0.30, function() {
-		      	$('#fav_'+id).attr("src",'http://localhost/SC4/resources/views/style/fav_red.png');
+		      	$('#fav_'+id).attr("src",'system/resources/views/style/fav_red.png');
 		 	}).fadeTo(500,1);
 
 
@@ -111,8 +111,8 @@
 
     // function no_fav(id) {
          
-    //     $('#fav_'+id).attr('src','http://localhost/SC4/resources/views/style/fav_red.png');
-    //     $('#no_fav_'+id).attr('src','http://localhost/SC4/resources/views/style/fav_gray.png');
+    //     $('#fav_'+id).attr('src','system/resources/views/style/fav_red.png');
+    //     $('#no_fav_'+id).attr('src','system/resources/views/style/fav_gray.png');
     // }
 
     // function badDeal(id) {
